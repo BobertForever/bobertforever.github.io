@@ -4,45 +4,48 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Robert Lynch by BobertForever</title>
+
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/BobertForever">View On GitHub</a></li>
-        </nav>
-      </div><!-- end header -->
-
     <div class="wrapper">
+      <header>
+        <h1>Robert Lynch</h1>
+        <p>I write code and code accessories.</p>
 
+
+        <p class="view"><a href="https://github.com/BobertForever">View My GitHub Profile</a></p>
+
+      </header>
       <section>
-        <div id="title">
-          <h1>Robert Lynch</h1>
-          <p>I write code and code accessories.</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/BobertForever">BobertForever</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
-
         <h1>
 <a name="hi-my-name-is-robert" class="anchor" href="#hi-my-name-is-robert"><span class="octicon octicon-link"></span></a>Hi, my name is Robert</h1>
 
-<p>I'm a sophomore Computer Science major at the University of Texas at Austin. I love coming up with effective and unique solutions to difficult problems in code.</p>
-      </section>
+<p>I'm a sophomore Computer Science major at the University of Texas at Austin. I love coming up with effective and unique solutions to difficult problems in code. I spend a lot of free time hacking on my projects, mostly for <a href="http://nodejs.org/">Node.js</a> and <a href="http://glass.google.com">Google Glass</a>.</p>
 
+<hr><h1>
+<a name="my-projects" class="anchor" href="#my-projects"><span class="octicon octicon-link"></span></a>My Projects</h1>
+
+<h3>
+<a name="paranoia-and-paranoia-nodejs" class="anchor" href="#paranoia-and-paranoia-nodejs"><span class="octicon octicon-link"></span></a>Paranoia and Paranoia-nodejs</h3>
+
+<p>One of the first applications I built was a manager for the community game "Assassins". The game works by first assigning a group of people "targets" in a circular fashion, and then creating a technique in which people can "kill" their targets, until one person remains, who is the winner. <strong>Paranoia</strong> is the original implementation, written almost solely in PHP using SQL for the database. Upon revisiting this project after it's initial creation, I made <strong>Paranoia-nodejs</strong>, a re-implementation in Node.js using MongoDB as the database.</p>
+
+<h3>
+<a name="glassnote" class="anchor" href="#glassnote"><span class="octicon octicon-link"></span></a>GlassNote</h3>
+
+<p><strong>GlassNote</strong> is a teleprompter and presentation remote for Google Glass I started development on during <a href="http://hacktx.com/">HackTX</a> 2014. In it's original form, it used <strong>Strut-for-Glassnote</strong>, a fork of <a href="https://github.com/tantaman/Strut">Strut</a>, for a presentation editor and viewer, and a Node.js server using <a href="http://socket.io/">Socket.io</a> to communicate between Strut and Glass. I later rewrote the majority of the application stack, so it now uses Apple's Keynote as the presentation editor, communicating to Glass over HTTP requests via <strong>KAAS</strong>.</p>
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    <script src="javascripts/scale.fix.js"></script>
     
   </body>
 </html>
